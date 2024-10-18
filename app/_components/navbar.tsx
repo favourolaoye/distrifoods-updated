@@ -4,23 +4,10 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import logo from "./logo.jpg";
-// import UserAuth from "./userAuth";
-import {
-  LoginLink,
-  LogoutLink,
-  RegisterLink,
-} from "@kinde-oss/kinde-auth-nextjs/components";
-import { KindeUser } from "@kinde-oss/kinde-auth-nextjs/types";
 import Menu from "./Menu";
 
-export default function Navbar({
-  isAuthenticated,
-  user,
-}: {
-  isAuthenticated: boolean;
-  user: KindeUser | null;
-}) {
-  //   useKindeAuth();
+export default function Navbar() {
+
   const [cartItemCount, setCartItemCount] = useState(1);
   const [authMenu, setAuthMenu] = useState(false);
 
@@ -111,20 +98,20 @@ export default function Navbar({
                 </button>
                 {authMenu && (
                   <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1">
-                    <LogoutLink>
+        
                       <button className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w-full text-left">
                         Logout
                       </button>
-                    </LogoutLink>
+            
                   </div>
                 )}
               </div>
             ) : (
-              <LoginLink>
+      
                 <button className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w-full text-left">
                   Log
                 </button>
-              </LoginLink>
+          
             )}
 
             <button

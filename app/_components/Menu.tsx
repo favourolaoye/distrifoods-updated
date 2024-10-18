@@ -2,12 +2,10 @@
 import {useState} from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { KindeUser } from '@kinde-oss/kinde-auth-nextjs/types';
 import logo from "./logo.jpg";
-export default function Menu({ isAuthenticated, user,}: {
-    isAuthenticated: boolean;
-    user: KindeUser | null;
-  }) {
+
+
+export default function Menu() {
     const [IsMenuOpen, setIsMenuOpen]  = useState(false);
     const navItems = [
         { label: "Products", href: "/products" },
