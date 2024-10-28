@@ -1,13 +1,11 @@
 import Image from 'next/image';
 import { Truck, Leaf, Users, Heart } from 'lucide-react';
 import Link from 'next/link';
-import Navbar from '../_components/navbar';
+
 import foodimage from "../_components/food-image.jpg";
 
 export default function AboutPage() {
   return (
-    <div className="">
-      <Navbar isAuthenticated={false} user={undefined}/>
     <div className="bg-white min-h-screen">
       {/* Hero Section */}
       <section className="relative h-96 bg-gray-400">
@@ -98,6 +96,5 @@ export default function AboutPage() {
         </div>
       </section>
     </div>
-   </div>
   )
 }
