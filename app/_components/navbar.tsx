@@ -16,7 +16,7 @@ export default function Navbar() {
       logout: () => {}
     }
   const { isAuthenticated, user, login, logout } = fmt
-  const [cartItemCount, setCartItemCount] = useState(0) // Replace with actual cart state
+  const [cartItemCount] = useState(0) // Replace with actual cart state
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const navItems = [

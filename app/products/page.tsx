@@ -13,6 +13,7 @@ import {
   SelectValue,
 } from "@/components/ui/select"
 import Navbar from '../_components/navbar'
+import Image from 'next/image'
 
 const products = [
   { id: 1, name: 'Xpressbite® Peanut Snacks Variants- Milk Sweetened, Vanila & Suya spice', category: 'snacks', price: 199.99, image: '/placeholder.svg?height=200&width=200' },
@@ -66,7 +67,7 @@ export default function Productpage() {
         {filteredProducts.map(product => (
           <Card key={product.id}>
             <CardHeader>
-              <img src={product.image} alt={product.name} className="w-full h-48 object-cover rounded-t-lg" />
+              <Image src={product.image} alt={product.name} className="w-full h-48 object-cover rounded-t-lg" />
             </CardHeader>
             <CardContent>
               <CardTitle>{product.name}</CardTitle>

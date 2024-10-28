@@ -1,8 +1,6 @@
 import React from 'react'
-interface ptype{
-params: any;
-}
-export default function ProductDetails({params}: ptype) {
+
+export default function ProductDetails({params}) {
   return (
     <div>ProductDetails for {params.slug}</div>
   )

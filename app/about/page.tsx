@@ -29,7 +29,7 @@ export default function AboutPage() {
       <section className="max-w-4xl mx-auto px-4 py-16 text-center">
         <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Mission</h2>
         <p className="text-xl text-gray-600">
-          At Distrifood, we're committed to bringing fresh, high-quality produce to your table. 
+          At Distrifood, we&apos;re committed to bringing fresh, high-quality produce to your table. 
           We believe in supporting local farmers, promoting sustainable practices, and making 
           healthy food accessible to all.
         </p>
@@ -42,7 +42,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               { icon: Truck, title: "Reliable Delivery", description: "We ensure timely and efficient delivery of fresh produce." },
-              { icon: Leaf, title: "Sustainability", description: "We're committed to eco-friendly practices and packaging." },
+              { icon: Leaf, title: "Sustainability", description: "We are committed to eco-friendly practices and packaging." },
               { icon: Users, title: "Community Focus", description: "We support local farmers and strengthen communities." },
               { icon: Heart, title: "Quality First", description: "We prioritize the freshness and quality of our products." },
             ].map((value, index) => (

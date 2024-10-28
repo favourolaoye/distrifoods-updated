@@ -116,7 +116,7 @@ export default function LandingPage() {
           <figure className="relative bg-gray-50 rounded-xl p-8 md:p-12">
             <blockquote className="text-lg md:text-xl font-medium text-gray-900 text-center">
               <p>
-                "Distrifoods has transformed how I shop for groceries. The quality of their organic produce is unmatched, and the convenience of home delivery is a game-changer. I'm a customer for life!"
+                &quot;Distrifoods has transformed how I shop for groceries. The quality of their organic produce is unmatched, and the convenience of home delivery is a game-changer. I&apos;m a customer for life!&quot;
               </p>
             </blockquote>
             <figcaption className="mt-6 flex items-center justify-center space-x-4">
