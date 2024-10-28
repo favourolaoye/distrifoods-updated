@@ -34,7 +34,7 @@ export default function Productpage() {
 
   return (
     <div className="">
-    <Navbar isAuthenticated={false} user={undefined}/>
+    <Navbar/>
     <div className="container mx-auto px-4 py-24">
       {/* <h1 className="text-3xl font-bold mb-8 text-center">Our products</h1> */}
       

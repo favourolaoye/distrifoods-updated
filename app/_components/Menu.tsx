@@ -13,7 +13,7 @@ export default function Menu() {
         { label: "About", href: "/about" },
       ];
   return (
-         <div
+      <div
         className={`md:hidden fixed inset-0 z-50 bg-white ${
           IsMenuOpen ? "block" : "hidden"
         }`}
