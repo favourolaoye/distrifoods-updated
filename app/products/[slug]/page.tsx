@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function ProductDetails({params}: any) {
+export default function ProductDetails() {
   return (
-    <div>ProductDetails for {params.slug}</div>
+    <div>ProductDetails</div>
   )
 }
