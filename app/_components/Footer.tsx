@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import { Facebook, Twitter, Instagram, Mail } from 'lucide-react'
-import { useState, useEffect } from 'react';
+import { Facebook, Twitter, Instagram } from 'lucide-react'
+
 
 export default function Footer() {
   //  const [mail, setMail] = useState("");
