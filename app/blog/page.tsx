@@ -47,8 +47,8 @@ const blogPosts = [
 
 export default function Blog() {
   return (
-    <div className="">
-      <Navbar isAuthenticated={false} user={undefined}/>
+ 
+     
     <div className="bg-gray-50 min-h-screen py-20">
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <section className="text-center mb-12">
@@ -101,6 +101,6 @@ export default function Blog() {
         </div>
       </main>
     </div>   
-    </div>
+
   )
 }
