@@ -2,7 +2,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { CalendarIcon, UserIcon, ArrowRightIcon } from 'lucide-react'
 import foodImage from "../_components/food-image.jpg";
-import Navbar from '../_components/navbar';
 const blogPosts = [
   {
     id: 1,
